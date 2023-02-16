@@ -1,0 +1,274 @@
+
+/* BODY */
+body{
+    margin: 0;
+    padding:0;
+}
+
+
+/* SIDEBAR STYLES */
+#sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto;
+}
+#logo{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%;
+}
+#sidebar-icon-bg{
+    display: inline-block;
+    margin-top:20px;
+    margin-left:20px;
+
+}
+#social{
+ color: #dadbde;
+ font-size: 25px;
+ padding:10px;
+
+}
+#sidebar>h2{
+    color: #dadbde;
+    margin: 15px 80px;
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+#sidebar-nav{
+    display: flex;
+    align-items: center;
+    padding: 12px 15px; 
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+#sidebar-nav>ul{
+    list-style: none;
+    margin: 40px 0px;
+}
+#sidebar-nav>ul>li{
+    margin-bottom: 30px;
+}
+#sidebar-nav>ul>li>a{
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #aaabae;
+}
+#sidebar-nav>ul>li>a>#icon{
+    color: #aaabae;
+    font-size:15px;
+    margin-right: 20px;
+}
+#sidebar-nav>ul>li>a:hover{
+    color: #fff;
+}
+#sidebar-nav>ul>li>a:hover>#icon{
+    color: #1ec2e7;
+}
+
+/* HOME */  
+#home{
+    background-color: rgb(0, 0, 0);
+    height:100vh;
+    width:100%;
+}
+
+/* CSS BUBBLES */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #2c7374, 5%, #123b58, 50%, #04051f);
+    position: absolute;
+  }
+  .wrapper h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:'Roboto', sans-serif;
+    position: absolute;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 888;
+    text-transform: uppercase;
+  }
+  .wrapper div {
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: 4s linear infinite;
+  }
+  div .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 20%;
+    right: 20%;
+  }
+  .wrapper div:nth-child(1) {
+    top: 20%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+  }
+  .wrapper div:nth-child(2) {
+    top: 60%;
+    left: 80%;
+    animation: animate 10s linear infinite;
+  }
+  .wrapper div:nth-child(3) {
+    top: 40%;
+    left: 40%;
+    animation: animate 3s linear infinite;
+  }
+  .wrapper div:nth-child(4) {
+    top: 66%;
+    left: 30%;
+    animation: animate 7s linear infinite;
+  }
+  .wrapper div:nth-child(5) {
+    top: 90%;
+    left: 10%;
+    animation: animate 9s linear infinite;
+  }
+  .wrapper div:nth-child(6) {
+    top: 30%;
+    left: 60%;
+    animation: animate 5s linear infinite;
+  }
+  .wrapper div:nth-child(7) {
+    top: 70%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+  }
+  .wrapper div:nth-child(8) {
+    top: 75%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+  }
+  .wrapper div:nth-child(9) {
+    top: 50%;
+    left: 50%;
+    animation: animate 6s linear infinite;
+  }
+  .wrapper div:nth-child(10) {
+    top: 45%;
+    left: 20%;
+    animation: animate 10s linear infinite;
+  }
+  .wrapper div:nth-child(11) {
+    top: 10%;
+    left: 90%;
+    animation: animate 9s linear infinite;
+  }
+  .wrapper div:nth-child(12) {
+    top: 20%;
+    left: 70%;
+    animation: animate 7s linear infinite;
+  }
+  .wrapper div:nth-child(13) {
+    top: 20%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+  }
+  .wrapper div:nth-child(14) {
+    top: 60%;
+    left: 5%;
+    animation: animate 6s linear infinite;
+  }
+  .wrapper div:nth-child(15) {
+    top: 90%;
+    left: 80%;
+    animation: animate 9s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      transform: scale(0) translateY(0) rotate(70deg);
+    }
+    100% {
+      transform: scale(1.3) translateY(-100px) rotate(360deg);
+    }
+  }
+  
+    /* ABOUT */
+#about{
+    background-color: #ffffff;
+    height:100vh;
+    width:100%;
+    display: block;
+ 
+}
+#about-header{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-left: 390px;
+}
+#about-header>h1{
+    color: #2b2e7a;
+}
+#about-header>hr{
+    width: 100px;
+    border: 2px solid #2b2e7a;
+    margin-top: 10px;
+}
+#about-content{
+    margin-top: 80px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+#about-content-left{
+    margin-left: 400px;
+    margin-top: 10px;
+    flex: 1;
+}
+#about-content-left>#profile-img{
+   height:300px;
+   
+}
+#about-content-right{ 
+    margin-top: 50px;
+    margin-right: 20px;
+    line-height: 40px;
+    color:#090b2f;
+    font-weight: medium;
+    
+}
+#about-content-right>h2{
+    color:#090b2f;
+}
+
+/* SKILLS */
+#skills{
+    background-color: #000000;
+    height:100vh;
+    width:100%;
+    display: block;
+}
+#skills-header{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 400px;
+    color:#dadbde;
+}
