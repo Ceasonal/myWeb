@@ -226,11 +226,11 @@ body{
     margin-left: 390px;
 }
 #about-header>h1{
-    color: #2b2e7a;
+    color: #04051f;
 }
 #about-header>hr{
     width: 100px;
-    border: 2px solid #2b2e7a;
+    border: 2px solid #04051f;
     margin-top: 10px;
 }
 #about-content{
@@ -262,7 +262,7 @@ body{
 
 /* SKILLS */
 #skills{
-    background-color: #000000;
+    background-color: #050F2C;
     height:100vh;
     width:100%;
     display: block;
@@ -271,4 +271,153 @@ body{
     font-family: 'Roboto', sans-serif;
     margin-left: 400px;
     color:#dadbde;
+}
+#skills-header>h1{
+  color: #2AD393;
+    padding-top: 30px;
+}
+#skills-header>hr{
+    width: 50px;
+    border: 2px solid #2AD393;
+    margin-top: 10px;
+}
+#stats-main>img{
+    margin-left: 550px;
+    margin-top: 50px;
+    height:250px;
+}
+#stats-sub{
+  margin-top: 50px;
+  margin-left: 400px;
+}
+#stats-sub2{
+  padding-bottom: 40px;
+}
+
+/* PROJECTS */
+#projects{
+  background-color: #ffffff;
+  height:100vh;
+  width:100%;
+  display: block;
+}
+#projects-header{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 400px;
+  color:#dadbde;
+}
+#projects-header>h1{
+color: #000059;
+  padding-top: 30px;
+}
+#projects-header>hr{
+  width: 100px;
+  border: 2px solid #000059;
+  margin-top: 10px;
+}
+#projects-content{
+  margin-top: 50px;
+  margin-left: 400px;
+}
+#projects-content>#card{
+  height: 50%;
+  width: 40%;
+  background-color: #ad0000;
+}
+#projects-content>#card>#img{
+  height: 200px;
+}
+.card{
+  width: 250px;
+  height: 220px;
+  display: inline-block;
+  border-radius: 10px;
+  padding:15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transform: 0.5s;
+  margin-bottom: 40px;
+}
+.card>p>a{  
+  color: #ffffff;
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.card1{
+  background-image: url('https://cdn.discordapp.com/attachments/642757845808578591/1076062254895726602/space.PNG');
+}
+.card1>h3{
+  color: #ffffff;
+}
+.card2{
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c7b9db7-855d-475d-8920-b1749619354a/df4j9k7-026b46be-b480-43ba-b19f-bb93ef16ab88.jpg/v1/fill/w_979,h_816,q_70,strp/spy_x_family_anya_cute_wallpaper_by_mazlumavsarncg_df4j9k7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA2NyIsInBhdGgiOiJcL2ZcLzBjN2I5ZGI3LTg1NWQtNDc1ZC04OTIwLWIxNzQ5NjE5MzU0YVwvZGY0ajlrNy0wMjZiNDZiZS1iNDgwLTQzYmEtYjE5Zi1iYjkzZWYxNmFiODguanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.dfJuK-PIwoc984tC8n3ME5P1MFrAu3bqGOBbg7HdYP8');
+}
+.card2>h3{
+  color: #000000;
+}
+.card2>p>a{
+  color: #000000;
+}
+.card3{
+  background-image: url('https://media.istockphoto.com/id/1309023728/video/cinematic-intro-of-the-coming-soon-lettering-from-the-dark.jpg?s=640x640&k=20&c=6ywPVAi06d-ODrrEYERKmgC7CBbGeZeLaJXhwklfzDk=');
+}
+.card4{
+  background-image: url('https://media.istockphoto.com/id/1309023728/video/cinematic-intro-of-the-coming-soon-lettering-from-the-dark.jpg?s=640x640&k=20&c=6ywPVAi06d-ODrrEYERKmgC7CBbGeZeLaJXhwklfzDk=');
+}
+.card5{
+  background-image: url('https://media.istockphoto.com/id/1309023728/video/cinematic-intro-of-the-coming-soon-lettering-from-the-dark.jpg?s=640x640&k=20&c=6ywPVAi06d-ODrrEYERKmgC7CBbGeZeLaJXhwklfzDk=');
+}
+.card6{
+  background-image: url('https://media.istockphoto.com/id/1309023728/video/cinematic-intro-of-the-coming-soon-lettering-from-the-dark.jpg?s=640x640&k=20&c=6ywPVAi06d-ODrrEYERKmgC7CBbGeZeLaJXhwklfzDk=');
+}
+
+
+/* TO-DO */
+#to-do{
+  background-color: #050F2C;
+  height:100vh;
+  width:100%;
+  display: block;
+}
+#to-do-header{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 400px;
+  color:#dadbde;
+}
+#to-do-header>h1{
+  color: #dadbde;
+  padding-top: 30px;
+}
+#to-do-header>hr{
+  width: 50px;
+  border: 2px solid #dadbde;
+  margin-top: 10px;
+}
+#to-do-content{
+  margin-top: 50px;
+  margin-left: 400px;
+}
+#to-do-content>ul{
+  margin-top: 50px;
+  float:left;
+  width: 50%;
+  list-style: none;
+}
+#to-do-content>ul>li{
+  color: #dadbde;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+#to-do-content>ul>li>#icon{
+  margin-right: 10px;
+}
+#to-do-content>#me{
+  float:right;
+  width: 50%;
+  margin-top: 30px;
+  height: 400px;
 }
